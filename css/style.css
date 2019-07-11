@@ -1,0 +1,66 @@
+/*
+N Ouriach
+Space Invaders in CSS, JavaScript & HTML
+July 2019
+*/
+
+.body {
+	
+	width: 1250px;
+	height: 800px;
+}
+
+#background {
+	
+	width: 1250px;
+	height: 800px;
+	background-image: url(../img/spaceBackground.png);
+}
+
+/*Do I need to change the size to 50x50 at some point?*/
+
+#hero {
+	
+	width: 100px;
+	height: 100px;
+	background-image: url(../img/heroShipMedium.png); 
+	
+	top: 700px;
+	left: 550px;
+	position: absolute; 
+}
+
+
+enemies {
+	width: 1250px;
+	height: 800px;
+	position: absolute;
+	
+}
+
+.enemy {
+	
+	width: 100px;
+	height: 100px;
+	background-image: url(../img/enemyShipMedium.png);
+	
+/*
+	top: 50px;
+	left: 550px;
+*/
+	position: absolute; 
+}
+
+#missiles {
+	width: 1250px;
+	height: 800px;
+	position: absolute;
+}
+
+.missile {
+	
+	width: 20px;
+	height: 20px;
+	background-image: url(../img/missileSmall.png);
+	position: absolute; 
+}
